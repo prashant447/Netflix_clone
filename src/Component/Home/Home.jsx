@@ -4,6 +4,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 // import { FaPlay } from 'react-icons/fa';
 // import { RiNetflixFill } from 'react-icons/Ri';
+  import avenger from '../Home/2.jpg'
 
 
 const imgUrl = 'https://image.tmdb.org/t/p/original'
@@ -123,7 +124,7 @@ const  getGenere = async() =>{
         {/* <button>Play</button>
         <button>Get Started  </button> */}
           </div>
-          <img src="../src/Component/Home/2.jpg" alt=""/>
+           <img src={avenger} alt=""/>
 
 
 
